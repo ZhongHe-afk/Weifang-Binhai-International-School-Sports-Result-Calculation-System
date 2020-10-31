@@ -1,0 +1,392 @@
+<!doctype html>
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>女子体育成绩</title>
+</head>
+
+
+<body background="https://pic.downk.cc/item/5f93a22a1cd1bbb86b289dde.png">
+<font size=6.5>
+<center>
+<h1>女子体育成绩</h1>
+<p>跑步成绩使用十进制小数，如：三分二十五秒即为3.25。立定跳远单位为厘米。</p>
+<p>姓名&nbsp;&nbsp;&nbsp;<input type="text" id="name" height="100"></p>
+<p>跑步成绩&nbsp;<input type="text" id="run"></p>
+<p>仰卧起坐&nbsp;<input type="text" id="yinTi"></p>
+<p>立定跳远&nbsp;<input type="text" id="tiaoYuan"></p>
+<p>坐位体前屈<input type="text" id="zuoWei"></p>
+<p>训练表现&nbsp;<input type="text" id="xun"></p>
+<p>日常成绩&nbsp;<input type="text" id="riChang"></p>
+<p><button onClick="getinput()" >查看结果</button></p>
+<a href="">出现NaN错误代码或其他错误？请点击这里</a>
+<style type="text/css">
+.div_foot {
+
+position: absolute;
+
+height: 60px;
+
+text-align: center;
+
+line-height: 11;
+
+width: 100%;
+	</style>
+	
+<div class="div_foot">       
+  <p><strong> © Copyright2020 宫达.AllRightsReserved.版权所有。 </strong></p>
+</div>
+</center>
+</font>
+
+
+<script type="text/javascript">
+
+function getinput(){
+	var name = document.getElementById("name").value;
+
+	var run = document.getElementById("run").value;
+	if(run<=3.25&&run>3.32){
+    var run1 = 100;
+    
+}
+if(run<=3.32&&run>3.25){
+    var run1 = 95;
+    
+}
+if(run<=3.39&&run>3.32){
+    var run1 = 90;
+    
+}
+if(run<=3.47&&run>3.39){
+    var run1 = 85;
+    
+}
+if(run<=3.55&&run>3.47){
+    var run1 = 80;
+    
+}
+if(run<=4.00&&run>3.55){
+    var run1 = 78;
+    
+}
+if(run<=4.05&&run>4.00){
+    var run1 = 76;
+    
+}
+if(run<=4.10&&run>4.05){
+    var run1 = 74;
+    
+}
+if(run<=4.15&&run>4.10){
+    var run1 = 72;
+    
+}
+if(run<=4.20&&run>4.15){
+    var run1 = 70;
+    
+}
+if(run<=4.25&&run>4.20){
+    var run1 = 68;
+    
+}
+if(run<=4.30&&run>4.25){
+    var run1 = 66;
+    
+}
+if(run<=4.35&&run>4.30){
+    var run1 = 64;
+    
+}
+if(run<=4.40&&run>4.35){
+    var run1 = 62;
+    
+}
+if(run<=4.45&&run>4.40){
+    var run1 = 60;
+    
+}
+if(run<=4.50&&run>4.45){
+    var run1 = 50;
+    
+}
+if(run<=4.55&&run>4.50){
+    var run1 = 40;
+    
+}
+if(run<=5.15&&run>4.55){
+    var run1 = 30;
+    
+}
+if(run<=5.25&&run>5.15){
+    var run1 = 20;
+    
+}
+if(run<=5.35&&run>5.25){
+    var run1 = 10;
+    
+}
+	var yinTi = document.getElementById("yinTi").value;
+if(yinTi>=50&&yinTi<52){
+    var yinTi1 = 95;
+    
+}
+if(yinTi>=48&&yinTi<50){
+    var yinTi1 = 90;
+    
+}
+if(yinTi>=45&&yinTi<48){
+    var yinTi1 = 85;
+    
+}
+if(yinTi>=42&&yinTi<45){
+    var yinTi1 = 80;
+    
+}
+if(yinTi>=40&&yinTi<42){
+    var yinTi1 = 78;
+    
+}
+if(yinTi>=38&&yinTi<40){
+    var yinTi1 = 76;
+    
+}
+if(yinTi>=36&&yinTi<38){
+    var yinTi1 = 74;
+    
+}
+if(yinTi>=34&&yinTi<36){
+    var yinTi1 = 72;
+    
+}
+if(yinTi>=32&&yinTi<34){
+    var yinTi1 = 70;
+    
+}
+if(yinTi>=30&&yinTi<32){
+    var yinTi1 = 68;
+    
+}
+if(yinTi>=28&&yinTi<30){
+    var yinTi1 = 66;
+    
+}
+if(yinTi>=26&&yinTi<28){
+    var yinTi1 = 64;
+    
+}
+if(yinTi>=24&&yinTi<26){
+    var yinTi1 = 62;
+    
+}
+if(yinTi>=22&&yinTi<24){
+    var yinTi1 = 60;
+    
+}
+if(yinTi>=20&&yinTi<22){
+    var yinTi1 = 50;
+    
+}
+if(yinTi>=18&&yinTi<20){
+    var yinTi1 = 40;
+    
+}
+if(yinTi>=16&&yinTi<18){
+    var yinTi1 = 30;
+    
+}
+if(yinTi>=14&&yinTi<16){
+    var yinTi1 = 20;
+    
+}
+if(yinTi>=12&&yinTi<14){
+    var yinTi1 = 10;
+    
+}
+
+	var tiaoYuan = document.getElementById("tiaoYuan").value;
+if(tiaoYuan<202&&tiaoYuan>=196){
+    var tiaoYuan1 = 95;
+    
+}
+if(tiaoYuan<196&&tiaoYuan>=190){
+    var tiaoYuan1 = 90;
+    
+}
+if(tiaoYuan<190&&tiaoYuan>=183){
+    var tiaoYuan1 = 85;
+    
+}
+if(tiaoYuan<183&&tiaoYuan>=176){
+    var tiaoYuan1 = 80;
+    
+}
+if(tiaoYuan<176&&tiaoYuan>=173){
+    var tiaoYuan1 = 78;
+    
+}
+if(tiaoYuan<173&&tiaoYuan>=170){
+    var tiaoYuan1 = 76;
+    
+}
+if(tiaoYuan<170&&tiaoYuan>=167){
+    var tiaoYuan1 = 74;
+    
+}
+if(tiaoYuan<167&&tiaoYuan>=164){
+    var tiaoYuan1 = 72;
+    
+}
+if(tiaoYuan<164&&tiaoYuan>=161){
+    var tiaoYuan1 = 70;
+    
+}
+if(tiaoYuan<161&&tiaoYuan>=158){
+    var tiaoYuan1 = 68;
+    
+}
+if(tiaoYuan<158&&tiaoYuan>=155){
+    var tiaoYuan1 = 66;
+    
+}
+if(tiaoYuan<155&&tiaoYuan>=152){
+    var tiaoYuan1 = 64;
+    
+}
+if(tiaoYuan<152&&tiaoYuan>=149){
+    var tiaoYuan1 = 62;
+    
+}
+if(tiaoYuan<149&&tiaoYuan>=146){
+    var tiaoYuan1 = 60;
+    
+}
+if(tiaoYuan<146&&tiaoYuan>=141){
+    var tiaoYuan1 = 50;
+    
+}
+if(tiaoYuan<141&&tiaoYuan>=136){
+    var tiaoYuan1 = 40;
+    
+}
+if(tiaoYuan<136&&tiaoYuan>=131){
+    var tiaoYuan1 = 30;
+    
+}
+if(tiaoYuan<131&&tiaoYuan>=126){
+    var tiaoYuan1 = 20;
+    
+}
+if(tiaoYuan<126&&tiaoYuan>=121){
+    var tiaoYuan1 = 10;
+    
+}
+	var zuoWei = document.getElementById("zuoWei").value;
+	if(zuoWei<23.5&&zuoWei>=21.8){
+    var zuoWei1 = 95;
+    
+}
+if(zuoWei<21.8&&zuoWei>=20.1){
+    var zuoWei1 = 90;
+    
+}
+if(zuoWei<20.1&&zuoWei>=18.4){
+    var zuoWei1 = 85;
+    
+}
+if(zuoWei<18.4&&zuoWei>=16.7){
+    var zuoWei1 = 80;
+    
+}
+if(zuoWei<16.7&&zuoWei>=15.4){
+    var zuoWei1 = 78;
+    
+}
+if(zuoWei<15.4&&zuoWei>=14.1){
+    var zuoWei1 = 76;
+    
+}
+if(zuoWei<14.1&&zuoWei>=12.8){
+    var zuoWei1 = 74;
+    
+}
+if(zuoWei<12.8&&zuoWei>=11.5){
+    var zuoWei1 = 72;
+    
+}
+if(zuoWei<11.5&&zuoWei>=10.2){
+    var zuoWei1 = 70;
+    
+}
+if(zuoWei<10.2&&zuoWei>=8.9){
+    var zuoWei1 = 68;
+    
+}
+if(zuoWei<8.9&&zuoWei>=7.6){
+    var zuoWei1 = 66;
+    
+}
+if(zuoWei<7.6&&zuoWei>=6.3){
+    var zuoWei1 = 64;
+    
+}
+if(zuoWei<6.3&&zuoWei>=5){
+    var zuoWei1 = 62;
+    
+}
+if(zuoWei<5&&zuoWei>=3.7){
+    var zuoWei1 = 60;
+    
+}
+if(zuoWei<3.7&&zuoWei>=2.9){
+    var zuoWei1 = 50;
+    
+}
+if(zuoWei<2.9&&zuoWei>=-2.1){
+    var zuoWei1 = 40;
+    
+}
+if(zuoWei<2.1&&zuoWei>=1.3){
+    var zuoWei1 = 30;
+    
+}
+if(zuoWei<1.3&&zuoWei>=0.5){
+    var zuoWei1 = 20;
+    
+}
+if(zuoWei<0.5&&zuoWei>=-6.2){
+    var zuoWei1 = 10;
+    
+}
+var riChang = document.getElementById("riChang").value;
+var xun = document.getElementById("xun").value;
+
+	var a =run1*0.3
+	a = a.toFixed(2)
+	var b =yinTi1*0.1
+	b = b.toFixed(2)
+	var c =zuoWei1*0.2
+	c = c.toFixed(2)
+	var d =tiaoYuan1*0.2
+	d = d.toFixed(2)
+	var e = Number(a)+Number(b)+Number(c)+Number(d)+Number(riChang)+Number(xun)
+														
+	alert(name+"同学，你的成绩是："+String(e));
+
+
+
+
+
+
+
+
+
+}
+	
+</script>
+
+</body>
+</html>
